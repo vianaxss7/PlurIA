@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "outputDirectory": "public",
+  "redirects": [
+    {"source": "/admin", "destination": "https://pluria-store.felipe67409.chatgpt.site/admin", "permanent": false}
+  ],
+  "rewrites": [
+    {"source": "/api/catalog", "destination": "https://pluria-store.felipe67409.chatgpt.site/api/catalog"}
+  ]
+}

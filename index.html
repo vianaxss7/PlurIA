@@ -1,10 +1,1710 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PlurIA - Marketplace de IA</title><meta name="description" content="Explore soluções de inteligência artificial para sua empresa. Um ecossistema de parceiros conectado pela FilaH."><style>
-:root{--ink:#1f132b;--muted:#6d6575;--green:#3e1666;--lime:#bb88ee;--bg:#f8f7fa;--line:#e2dfe6}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 Arial,sans-serif}button,input,select,textarea{font:inherit}button,a{touch-action:manipulation}button{cursor:pointer}a{color:inherit;text-decoration:none}.wrap{max-width:1240px;margin:auto;padding:0 36px}header{border-bottom:1px solid var(--line);background:#fff}nav{height:88px;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{font-size:28px;font-weight:800;letter-spacing:-1.5px}.brand span{font-size:13px;font-weight:500;letter-spacing:2px;border-left:1px solid #c1bac8;margin-left:14px;padding-left:14px}.links{display:flex;gap:29px;font-size:14px}.btn{border:0;background:var(--green);color:white;padding:12px 22px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;gap:14px;font-weight:600}.btn.light{background:white;color:var(--ink);border:1px solid var(--line)}.eyebrow{text-transform:uppercase;font-size:11px;font-weight:700;letter-spacing:2px;color:var(--green)}.hero{display:grid;grid-template-columns:1.15fr 1fr;gap:65px;padding-top:70px;padding-bottom:64px;align-items:center}h1{font-size:59px;line-height:1.08;letter-spacing:-2.6px;margin:22px 0}h1 em{font-style:normal;color:var(--green)}.lead{color:var(--muted);font-size:17px;max-width:490px}.hero .actions{display:flex;gap:12px;margin-top:29px}.micro{font-size:12px;color:var(--muted);margin-top:22px}.art{background:#eae5ee;border-radius:22px;min-height:355px;position:relative;overflow:hidden;padding:35px;background-image:radial-gradient(#afa4ba 1px,transparent 1px);background-size:19px 19px}.orbit{border:1px solid #b0a4bb;border-radius:50%;position:absolute;width:340px;height:340px;left:85px;top:24px}.orbit:after{content:'';position:absolute;inset:42px;border:1px solid #b0a4bb;border-radius:50%}.core{position:absolute;left:calc(50% - 52px);top:121px;background:var(--green);color:var(--lime);width:105px;height:105px;border-radius:26px;display:grid;place-content:center;box-shadow:0 18px 36px #30164b33;font-size:42px}.float{position:absolute;background:#fff;border:1px solid #ded9e4;border-radius:10px;padding:13px 17px;box-shadow:0 9px 25px #29183b10;font-size:12px;display:flex;align-items:center;gap:12px}.float b{display:block;font-size:13px}.float i{font-style:normal;color:var(--green);background:#eee8f5;padding:8px;border-radius:8px;font-size:19px}.f1{top:34px;left:27px}.f2{top:98px;right:15px}.f3{bottom:61px;left:14px}.f4{bottom:22px;right:24px}.strip{border-block:1px solid var(--line);display:flex;justify-content:space-between;padding:23px 0;color:#6b6373;font-size:13px}.strip strong{color:var(--ink);font-weight:600}.catalog{padding:64px 0}.sectiontop{display:flex;justify-content:space-between;align-items:end;gap:20px}h2{font-size:34px;line-height:1.2;letter-spacing:-1px;margin:12px 0}.sectiontop p{color:var(--muted);margin:0}.search{position:relative;width:330px}.search input{width:100%;padding:13px 16px 13px 41px;border:1px solid var(--line);border-radius:8px;background:white}.search span{position:absolute;left:15px;top:10px;font-size:20px}.filters{display:flex;gap:9px;flex-wrap:wrap;margin:27px 0}.chip{background:transparent;border:1px solid var(--line);border-radius:25px;padding:9px 17px;color:#5d5366;font-size:13px}.chip.active{background:var(--ink);color:#fff;border-color:var(--ink)}.results{color:var(--muted);font-size:12px;margin:17px 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:25px;transition:.2s;display:flex;flex-direction:column}.card:hover{transform:translateY(-4px);box-shadow:0 12px 30px #29183b10}.cardhead{display:flex;justify-content:space-between;align-items:center}.icon{height:48px;width:48px;display:grid;place-content:center;border-radius:12px;font-size:24px}.tag{font-size:10px;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:3px 7px}.card h3{font-size:20px;letter-spacing:-.4px;margin:19px 0 4px}.partner{font-size:12px;color:var(--muted)}.card p{font-size:14px;color:var(--muted);min-height:67px}.benefit{font-size:12px;color:var(--green);padding:11px 0 18px}.cardfoot{border-top:1px solid var(--line);padding-top:17px;display:flex;align-items:center;justify-content:space-between;margin-top:auto;font-size:12px}.detail{border:0;background:none;color:var(--green);font-weight:bold;padding:5px 0}.how{background:#eeeaf2;padding:55px 0}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:45px;margin-top:33px}.number{color:var(--green);font-size:12px;letter-spacing:2px}.steps h3{margin:9px 0}.steps p{color:var(--muted);font-size:14px}.partnerbox{margin:58px 0;display:flex;justify-content:space-between;align-items:center;background:var(--ink);color:white;padding:44px;border-radius:14px;gap:30px}.partnerbox p{color:#c0b6c9;max-width:610px}.partnerbox .eyebrow{color:var(--lime)}.partnerbox .btn{background:var(--lime);color:var(--ink);white-space:nowrap}footer{border-top:1px solid var(--line);padding:25px 0;font-size:12px;color:var(--muted)}footer .wrap{display:flex;justify-content:space-between;gap:20px}.empty{grid-column:1/-1;padding:50px;text-align:center;border:1px dashed var(--line)}dialog{border:0;border-radius:16px;padding:0;max-width:620px;width:calc(100% - 30px);color:var(--ink);box-shadow:0 25px 80px #0003}dialog::backdrop{background:#1a1025d0;backdrop-filter:blur(4px)}.modal{padding:32px;max-height:88vh;overflow:auto}.close{float:right;border:1px solid var(--line);background:white;border-radius:50%;width:32px;height:32px;font-size:20px}.modal h2{font-size:28px}.modal p{color:var(--muted)}.modal ul{padding-left:20px;color:var(--muted)}label{display:block;font-size:12px;margin-top:14px;font-weight:600}label input,label select,label textarea{display:block;width:100%;padding:11px;border:1px solid #d2cdd8;border-radius:7px;margin-top:5px;background:white;color:var(--ink)}.formrow{display:grid;grid-template-columns:1fr 1fr;gap:15px}.notice{font-size:12px;background:#eee8f5;padding:12px;border-radius:7px}.modal form .btn{width:100%;margin-top:20px}.success{padding:25px 0}.success h3{font-size:25px}.demo{background:#f0edf4;border-bottom:1px solid var(--line);text-align:center;font-size:11px;padding:6px;color:#685f71}button:focus-visible,a:focus-visible{outline:3px solid #7846ab;outline-offset:4px}@media(max-width:900px){.hero{gap:25px}h1{font-size:44px}.links{display:none}.art{min-height:330px}.orbit{left:20px}.grid{grid-template-columns:repeat(2,1fr)}.sectiontop{align-items:start;flex-direction:column}.search{width:100%}.strip{gap:20px;flex-wrap:wrap}}@media(max-width:600px){.wrap{padding:0 20px}nav{height:75px}.brand{font-size:25px}.brand span{font-size:10px;margin-left:8px;padding-left:8px}nav>.btn{padding:9px 12px;font-size:12px}.hero{grid-template-columns:1fr;padding-top:35px;padding-bottom:35px}h1{font-size:43px}.art{min-height:320px}.hero .actions{flex-wrap:wrap}.grid,.steps{grid-template-columns:1fr}.catalog{padding:40px 0}.partnerbox{padding:27px;align-items:start;flex-direction:column}.strip{font-size:12px}.card p{min-height:0}footer .wrap{flex-direction:column}.formrow{grid-template-columns:1fr}h2{font-size:29px}.modal{padding:24px}}
+<!doctype html>
+<html lang="pt-BR">
 
-/* FilaH / Future ecosystem */
-:root{--ink:#f2eef6;--muted:#9c94a5;--green:#b26afa;--lime:#b26afa;--bg:#0a080d;--line:#ffffff16}body{background:radial-gradient(ellipse at 85% 10%,#24163350,transparent 38%),#0a080d;font-family:Arial,sans-serif}header{background:#0a080dbe;backdrop-filter:blur(22px);position:sticky;top:0;z-index:20}.wrap{max-width:1320px}nav{height:86px}.brand{letter-spacing:-1.7px}.brand span{color:#b26afa;border-color:#ffffff25;letter-spacing:3px}.links{color:#bab3c1}.links a:hover{color:var(--lime)}.btn{background:var(--lime);color:#160c20;border-radius:6px;padding:14px 24px;box-shadow:0 0 25px #b26afa0d;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px);box-shadow:0 7px 30px #b26afa23}.btn.light{background:#ffffff05;color:#e2dce8;border:1px solid #ffffff25}.demo{background:#120e17;color:#8a7f95;border-color:#ffffff0d;font-size:10px;letter-spacing:1px}.hero{grid-template-columns:1.1fr 1fr;gap:10px;min-height:650px;padding-top:60px;padding-bottom:65px;position:relative}.eyebrow{font-size:10px;letter-spacing:2.5px;color:var(--lime)}.hero .eyebrow:before{content:'';display:inline-block;width:6px;height:6px;background:var(--lime);border-radius:50%;margin-right:10px;box-shadow:0 0 12px var(--lime)}h1{font-size:72px;letter-spacing:-4px;line-height:1.03;margin:27px 0}h1 em{background:linear-gradient(100deg,#b26afa,#a06ad6);background-clip:text;-webkit-background-clip:text;color:transparent}.lead{font-size:16px;line-height:1.8;max-width:450px}.micro{font-size:11px;letter-spacing:.4px;color:#8c8198}.art{background:transparent;background-image:none;border-radius:0;height:490px;min-height:490px;overflow:visible;padding:0;isolation:isolate;perspective:1000px}.art:before{content:'';position:absolute;inset:12%;border-radius:50%;background:#ab5bfc0b;filter:blur(40px)}.art canvas{position:absolute;inset:0;width:100%;height:100%}.orbit,.core{display:none}.float{background:linear-gradient(130deg,#2f2639bb,#100b15cc);color:#ece8f1;border:1px solid #b27bea30;backdrop-filter:blur(16px);box-shadow:0 14px 45px #0005;border-radius:9px;padding:13px 17px;z-index:2;animation:levitate 7s ease-in-out infinite;font-size:10px}.float b{font-size:12px;font-weight:500;letter-spacing:.3px}.float i{background:#b26afa12;color:var(--lime);font-size:19px;border:1px solid #b26afa25}.f1{top:48px;left:12px;transform:rotate(-6deg)}.f2{top:130px;right:-5px;animation-delay:-2s}.f3{bottom:104px;left:0;animation-delay:-4s}.f4{bottom:33px;right:25px;animation-delay:-1s}.scene-caption{position:absolute;bottom:0;left:20px;font-size:9px;letter-spacing:2px;color:#90829d}.scene-caption span{color:var(--lime)}@keyframes levitate{50%{translate:0 -12px}}.strip{padding:25px 0;color:#9a8ea6;font-size:12px}.strip strong{font-size:13px;color:#ddd7e3}.catalog{padding:85px 0}.sectiontop p{font-size:14px}h2{font-size:39px;letter-spacing:-1.6px}.search input{background:#16111b;border-color:#ffffff16;color:#eae4f0;font-size:12px;padding-block:15px}.search input::placeholder{color:#8b8195}.search span{color:#b0a8b8}.filters{margin-top:30px;gap:8px}.chip{border-radius:5px;font-size:12px;padding:10px 18px;color:#b0a7b9;background:#ffffff02}.chip:hover{border-color:#b26afa66}.chip.active{background:#b26afa17;border-color:#b26afa70;color:#c38cfb}.results{font-size:10px;letter-spacing:.8px;margin:23px 0}.grid{gap:17px}.card{background:linear-gradient(145deg,#1a1520,#110d15);border-color:#ffffff12;border-radius:11px;padding:27px;position:relative;overflow:hidden;transform-style:preserve-3d;transition:transform .25s,border-color .25s,box-shadow .25s}.card:before{content:'';position:absolute;top:-95px;right:-60px;width:190px;height:190px;border-radius:50%;background:radial-gradient(circle,#b26afa0b,transparent 70%);pointer-events:none}.card:hover{border-color:#b26afa55;box-shadow:0 18px 50px #0005}.icon{background:linear-gradient(135deg,#b26afa20,#b26afa04)!important;color:#c28cf8;border:1px solid #b26afa24;box-shadow:inset 0 1px 0 #dab5ff22;border-radius:10px;transform:perspective(300px) rotateY(-14deg) rotateX(8deg);height:53px;width:53px;font-size:25px}.tag{border-color:#ffffff13;color:#9c91a7;font-size:9px;padding:4px 8px}.card h3{margin-top:24px;font-size:20px;font-weight:500;letter-spacing:-.5px}.partner{font-size:10px;color:#83788e}.card p{font-size:13px;line-height:1.8;min-height:70px;color:#a39aac}.benefit{font-size:11px;color:#ba9fd6;padding-bottom:23px}.cardfoot{font-size:11px;border-color:#ffffff10}.detail{color:#c18cf7;font-size:11px}.how{background:radial-gradient(ellipse at 50% 0,#2a1c3855,transparent 70%),#100c14;border-block:1px solid #ffffff0e;padding:65px 0}.steps{gap:60px}.number{font-family:monospace;font-size:11px;color:#a15ce7}.steps h3{font-weight:500;font-size:19px}.steps p{font-size:13px;line-height:1.9;max-width:310px}.partnerbox{background:linear-gradient(110deg,#201729,#140e1b);border:1px solid #b26afa30;border-radius:13px;margin:72px 0;padding:50px;position:relative;overflow:hidden}.partnerbox:after{content:'✳';position:absolute;right:230px;top:-100px;font-size:350px;color:#b26afa05;pointer-events:none}.partnerbox p{font-size:14px;max-width:560px}.partnerbox h2{font-size:36px}.partnerbox .btn{z-index:1}footer{color:#7f748b;padding:32px 0}footer .brand{color:#e3dceb}.modal{background:linear-gradient(145deg,#221b2a,#100c15);color:var(--ink)}dialog{background:#15101a;border:1px solid #b26afa35}dialog::backdrop{background:#040207ce}.close{background:#ffffff08;color:white;border-color:#ffffff25}.modal label input,.modal label textarea{background:#0c0910;border-color:#ffffff25;color:white}.notice{background:#b26afa0a;border:1px solid #b26afa20;color:#aa9eb5!important}.modal h3{font-weight:500}.modal ul{font-size:14px;line-height:2}.empty{background:#15101b;border-color:#b26afa25}.reveal{animation:arrive .7s ease both}@keyframes arrive{from{opacity:0;translate:0 25px}to{opacity:1;translate:0 0}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}@media(max-width:1000px){h1{font-size:58px}.hero{min-height:590px}.art{min-height:420px;height:420px}.f2{right:0}.f1{left:0}.float{padding:10px}.scene-caption{font-size:8px}.grid{gap:14px}}@media(max-width:600px){h1{font-size:49px;letter-spacing:-2.7px}.hero{grid-template-columns:1fr;padding-top:35px;gap:0}.art{height:360px;min-height:360px;margin-top:15px}.f1{top:20px}.f2{top:100px}.f3{bottom:80px}.f4{bottom:28px}.float{font-size:9px}.float b{font-size:11px}h2{font-size:30px}.catalog{padding:48px 0}.strip{display:grid;grid-template-columns:1fr 1fr;gap:17px}.strip strong{grid-column:1/-1}.strip span{font-size:10px}.card p{min-height:0}.partnerbox{padding:28px;margin:45px 0}.partnerbox h2{font-size:29px}.steps{gap:22px}.scene-caption{bottom:-9px}.hero .actions{gap:9px}.hero .actions .btn{font-size:12px;padding:13px 17px}}
-.prototype-link{display:flex;justify-content:space-between;padding:12px 15px;margin-top:17px;border:1px solid #b26afa50;background:#b26afa10;color:#ca9bfa;border-radius:6px;font-size:12px;font-weight:600}.prototype-link:hover{background:#b26afa24}.brand .brand-ia{font:inherit;letter-spacing:inherit;border:0;margin:0;padding:0;color:#c496ff}.brand>span:last-child{font-size:10px;letter-spacing:1.7px}nav .brand{white-space:nowrap}@media(max-width:600px){nav .brand>span:last-child{display:block;border:0;margin:4px 0 0;padding:0;font-size:8px;letter-spacing:1.4px}}.btn{color:#180b29}.btn.light{color:#f3edfa}.partnerbox .btn{color:#180b29}
-.grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:30px 25px}.card.app-tile{padding:0;background:none;border:0;border-radius:0;overflow:visible;box-shadow:none;transform:none!important}.card.app-tile:before{display:none}.app-entry{display:block;text-align:left;background:none;border:0;padding:0;color:inherit;width:100%;font:inherit}.app-logo{width:82px;height:82px;border-radius:21px;display:grid;place-content:center;font-size:30px;font-weight:700;letter-spacing:-2px;background:linear-gradient(135deg,#5935a0,#251936);color:white;border:1px solid #c799ff40;box-shadow:inset 0 1px 0 #ffffff25,0 8px 24px #0003;transition:transform .2s,box-shadow .2s}.app-logo-0{background:linear-gradient(135deg,#ac76ff,#4c2a88)}.app-logo-1{background:linear-gradient(135deg,#315e4e,#172d26);letter-spacing:-3px;font-size:25px}.app-logo-2{background:linear-gradient(135deg,#34324c,#161421);color:#c99aff;font-size:40px}.app-entry:hover .app-logo{transform:translateY(-4px);box-shadow:0 10px 28px #8e4bd230}.app-tile h3{font-size:15px;font-weight:600;margin:15px 0 5px;line-height:1.45;letter-spacing:-.2px}.app-tile p{font-size:12px;line-height:1.7;min-height:0;margin:0;color:#a99fb6}.app-tile .app-entry:focus-visible{outline-offset:8px;border-radius:8px}.catalog{padding-top:65px}.results{margin:28px 0 24px;font-size:13px;color:#ded4ec;letter-spacing:0}.filters{gap:8px}@media(max-width:1000px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}@media(max-width:750px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 18px}}@media(max-width:480px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}.app-logo{width:74px;height:74px}.app-tile h3{font-size:14px}.app-tile p{font-size:11px}}
-.app-logo img{width:100%;height:100%;object-fit:cover;border-radius:20px}.app-logo:has(img){display:block;overflow:hidden}nav:has(a[href="/admin"]) .links{gap:15px}@media(max-width:600px){nav:has(a[href="/admin"]){flex-wrap:wrap;height:auto;padding-top:15px;padding-bottom:15px}}</style></head><body><div class="demo">Portfólio em demonstração · Protótipos FilaH e conceitos de parceiros</div><header><nav class="wrap"><a class="brand" href="#">Plur<span class="brand-ia">IA</span><span>MARKETPLACE DE IA</span></a><div class="links"><a href="#solucoes">Explorar soluções</a><a href="#como">Como funciona</a><a href="#parceiros">Para parceiros</a></div><button class="btn light" onclick="openForm('consultoria')">Vamos conversar ↗</button></nav></header><main><section class="wrap hero"><div><div class="eyebrow">PLURIA / INTELIGÊNCIA SEM FRONTEIRAS</div><h1>O futuro não<br>espera.<br><em>Conecte-se a ele.</em></h1><p class="lead">Descubra automações que resolvem desafios reais. Conectamos sua empresa a soluções de IA e automações de um ecossistema de especialistas.</p><div class="actions"><a href="#solucoes" class="btn">Explorar soluções <span>↗</span></a><button class="btn light" onclick="openForm('consultoria')">Me ajude a escolher</button></div><div class="micro">Para empresas de todos os tamanhos. Com pessoas por perto.</div></div><div class="art" aria-label="Ecossistema de soluções conectadas à PlurIA"><canvas id="nexus" aria-label="Núcleo tridimensional animado do ecossistema PlurIA"></canvas><div class="scene-caption"><span>●</span> NEXUS / ECOSSISTEMA CONECTADO</div><div class="float f1"><i>☏</i><div><b>Atendimento</b>Conversas que avançam</div></div><div class="float f2"><i>↗</i><div><b>Vendas</b>Mais oportunidades</div></div><div class="float f3"><i>▤</i><div><b>Documentos</b>Menos tarefas manuais</div></div><div class="float f4"><i>⌘</i><div><b>Operações</b>Processos conectados</div></div></div></section><div class="wrap"><div class="strip"><strong>Múltiplas soluções. Uma conexão: PlurIA.</strong><span>↗ Soluções por necessidade</span><span>◎ Orientação na escolha</span><span>⇄ Conexão com especialistas</span></div></div><section class="wrap catalog" id="solucoes"><div class="sectiontop"><div><div class="eyebrow">Inteligência aplicada</div><h2>Uma nova dimensão de possibilidades.</h2><p>Escolha seu desafio. Descubra a inteligência que move o próximo passo.</p></div><div class="search"><span>⌕</span><input id="search" aria-label="Buscar soluções" placeholder="Busque uma solução ou necessidade"></div></div><div class="filters" id="filters"></div><div class="results" id="count"></div><div class="grid" id="grid"></div></section><section class="how" id="como"><div class="wrap"><div class="eyebrow">Da descoberta à conexão</div><h2>Um caminho simples para começar.</h2><div class="steps"><article><span class="number">01 / DESCUBRA</span><h3>Encontre sua solução</h3><p>Explore por área e conheça aplicações de IA para os desafios da sua empresa.</p></article><article><span class="number">02 / CONVERSE</span><h3>Conte o que precisa</h3><p>Solicite uma demonstração ou peça ajuda à PlurIA para avaliar as opções.</p></article><article><span class="number">03 / CONECTE</span><h3>Avance com o parceiro</h3><p>Conheça o fornecedor responsável e alinhe escopo, implantação e condições comerciais.</p></article></div></div></section><section class="wrap" id="parceiros"><div class="partnerbox"><div><div class="eyebrow">Cresça com o ecossistema</div><h2>Você tem a solução.<br>Vamos ampliar o alcance.</h2><p>Apresente seu produto para integrar o portfólio PlurIA. Conecte sua tecnologia a empresas que precisam do que você faz.</p></div><button class="btn" onclick="openForm('parceiro')">Quero ser parceiro ↗</button></div></section></main><footer><div class="wrap"><a class="brand" href="#">Plur<span class="brand-ia">IA</span><span>MARKETPLACE DE IA</span></a><span>PlurIA · Marketplace de IA. Uma iniciativa FilaH.</span><span>Contato por e-mail · Envio pelo seu aplicativo.</span></div><div class="wrap" style="padding-top:16px"><a href="/admin" style="font-size:11px">Acesso do administrador</a></div></footer><dialog id="dialog" aria-label="Detalhes e contato"><div class="modal" id="modal"></div></dialog><script>
-let products=[];let active='';let cats=[];function render(){cats=[...new Set(products.map(p=>p.cat))];document.getElementById('filters').innerHTML=cats.map(c=>`<button class="chip ${active===c?'active':''}" aria-pressed="${active===c}" onclick="filter(decodeURIComponent('${encodeURIComponent(c).replace(/'/g,'%27')}'))">${escapeText(c)}</button>`).join('');let q=document.getElementById('search').value.toLocaleLowerCase('pt-BR');let list=products.filter(p=>(!active||p.cat===active)&&[p.name,p.desc,p.cat,p.aud].join(' ').toLocaleLowerCase('pt-BR').includes(q));document.getElementById('count').textContent=active||'Explore as soluções';document.getElementById('grid').innerHTML=list.length?list.map(p=>{let i=products.indexOf(p);return `<article class="card app-tile">${p.url?`<a class="app-entry" href="${escapeText(p.url)}" target="_blank" rel="noopener noreferrer" aria-label="Abrir demonstração de ${escapeText(p.name)}">`:`<button class="app-entry" onclick="openForm('solucao',${i})" aria-label="Conhecer ${escapeText(p.name)}">`}<div class="app-logo app-logo-${i}" aria-hidden="true">${p.logo?`<img src="${escapeText(p.logo)}" alt="" loading="lazy">`:escapeText(p.icon||p.name.slice(0,2))}</div><h3>${escapeText(p.name)}</h3>${p.url?'</a>':'</button>'}<p>${escapeText(p.desc)}</p></article>`}).join(''):'<div class="empty">Nenhuma solução encontrada. Tente outra busca ou segmento.</div>'}function escapeText(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}function filter(c){active=active===c?'':c;render()}document.getElementById('search').addEventListener('input',render);const dlg=document.getElementById('dialog');function show(html){document.getElementById('modal').innerHTML='<button class="close" aria-label="Fechar" onclick="dlg.close()">×</button>'+html;if(!dlg.open)dlg.showModal()}function details(i){let p=products[i];show(`<div class="eyebrow">${p.cat} / ${p.own?'SOLUÇÃO FILAH':'demonstração'}</div><h2>${escapeText(p.name)}</h2><p>${escapeText(p.desc)}</p><h3>Possibilidades da solução</h3><ul>${p.features.map(f=>`<li>${f}</li>`).join('')}</ul><h3>Para quem faz sentido</h3><p>${p.aud}.</p><div class="notice">${p.own?'Protótipo para demonstração. Abre em uma nova aba e pode solicitar login. Recursos e condições da versão comercial devem ser confirmados com a FilaH.':'Exemplo de portfólio. Fornecedor, recursos, integrações e condições serão definidos após validação dos parceiros.'}</div><br>${p.own?`<a class="btn" style="margin-bottom:12px" href="${escapeText(p.url)}" target="_blank" rel="noopener noreferrer">Testar protótipo ↗</a><br>`:''}<button class="btn ${p.own?'light':''}" onclick="openForm('solucao',${i})">Solicitar demonstração ↗</button>`)}function openForm(type,i){let partner=type==='parceiro',p=products[i];show(`<div class="eyebrow">${partner?'Ecossistema de parceiros':'Vamos conversar'}</div><h2>${partner?'Sua solução na PlurIA':p?'Conheça a solução':'Encontre o melhor caminho'}</h2><p>${partner?'Conte sobre sua empresa e seu produto para uma futura avaliação de parceria.':p?p.name:'Conte seu desafio. A PlurIA ajuda a conectar sua empresa à solução adequada.'}</p><form onsubmit="prepareEmail(event,${partner})"><input type="hidden" name="interesse" value="${p?escapeText(p.name):'Orientação sobre soluções'}"><div class="formrow"><label>Seu nome<input required name="nome" autocomplete="name"></label><label>Empresa<input required name="empresa" autocomplete="organization"></label></div><label>E-mail corporativo<input required name="email" type="email" autocomplete="email"></label>${partner?'<label>Nome da solução<input required name="solucao"></label><label>Site do produto<input type="url" name="site" placeholder="https://"></label>':''}<label>${partner?'O que seu produto resolve?':'Qual desafio você quer resolver?'}<textarea name="desafio" rows="3" required></textarea></label><p class="notice">Seu aplicativo de e-mail será aberto com a mensagem preenchida. Revise e clique em enviar para concluir o contato.</p><button class="btn" type="submit">${partner?'Preparar e-mail de parceria':'Preparar e-mail de interesse'} ↗</button></form>`)}function prepareEmail(e,partner){e.preventDefault();const f=new FormData(e.target);const subject=partner?'PlurIA | Proposta de parceria':'PlurIA | Interesse em '+f.get('interesse');const body=['Olá, equipe PlurIA!','',partner?'Gostaria de apresentar minha solução para uma parceria.':'Gostaria de conhecer melhor uma solução.','','Nome: '+f.get('nome'),'Empresa: '+f.get('empresa'),'E-mail: '+f.get('email'),partner?'Solução: '+f.get('solucao'):'Interesse: '+f.get('interesse'),partner?'Site: '+f.get('site'):'','',f.get('desafio')].join('\n');const url='mailto:felipe@filah.com.br?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);const a=document.createElement('a');a.href=url;a.click();const status=document.createElement('p');status.className='notice';status.textContent='Mensagem preparada. Conclua o envio no seu aplicativo de e-mail. Se ele não abriu, confira se você tem um aplicativo de e-mail configurado.';e.target.append(status);}dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close()});async function loadCatalog(){try{const r=await fetch('/api/catalog');if(!r.ok)throw Error();products=await r.json();render()}catch{document.getElementById('grid').textContent='Não foi possível carregar as soluções. Atualize a página para tentar novamente.'}}loadCatalog();
-</script><script src="experience.js"></script></body></html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PlurIA - Marketplace de IA</title>
+    <meta name="description"
+        content="Explore soluções de inteligência artificial para sua empresa. Um ecossistema de parceiros conectado pela FilaH.">
+    <style>
+        :root {
+            --ink: #1f132b;
+            --muted: #6d6575;
+            --green: #3e1666;
+            --lime: #bb88ee;
+            --bg: #f8f7fa;
+            --line: #e2dfe6
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--ink);
+            font: 15px/1.6 Arial, sans-serif
+        }
+
+        button,
+        input,
+        select,
+        textarea {
+            font: inherit
+        }
+
+        button,
+        a {
+            touch-action: manipulation
+        }
+
+        button {
+            cursor: pointer
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        .wrap {
+            max-width: 1240px;
+            margin: auto;
+            padding: 0 36px
+        }
+
+        header {
+            border-bottom: 1px solid var(--line);
+            background: #fff
+        }
+
+        nav {
+            height: 88px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 25px
+        }
+
+        .brand {
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: -1.5px
+        }
+
+        .brand span {
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            border-left: 1px solid #c1bac8;
+            margin-left: 14px;
+            padding-left: 14px
+        }
+
+        .links {
+            display: flex;
+            gap: 29px;
+            font-size: 14px
+        }
+
+        .btn {
+            border: 0;
+            background: var(--green);
+            color: white;
+            padding: 12px 22px;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            font-weight: 600
+        }
+
+        .btn.light {
+            background: white;
+            color: var(--ink);
+            border: 1px solid var(--line)
+        }
+
+        .eyebrow {
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--green)
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1.15fr 1fr;
+            gap: 65px;
+            padding-top: 70px;
+            padding-bottom: 64px;
+            align-items: center
+        }
+
+        h1 {
+            font-size: 59px;
+            line-height: 1.08;
+            letter-spacing: -2.6px;
+            margin: 22px 0
+        }
+
+        h1 em {
+            font-style: normal;
+            color: var(--green)
+        }
+
+        .lead {
+            color: var(--muted);
+            font-size: 17px;
+            max-width: 490px
+        }
+
+        .hero .actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 29px
+        }
+
+        .micro {
+            font-size: 12px;
+            color: var(--muted);
+            margin-top: 22px
+        }
+
+        .art {
+            background: #eae5ee;
+            border-radius: 22px;
+            min-height: 355px;
+            position: relative;
+            overflow: hidden;
+            padding: 35px;
+            background-image: radial-gradient(#afa4ba 1px, transparent 1px);
+            background-size: 19px 19px
+        }
+
+        .orbit {
+            border: 1px solid #b0a4bb;
+            border-radius: 50%;
+            position: absolute;
+            width: 340px;
+            height: 340px;
+            left: 85px;
+            top: 24px
+        }
+
+        .orbit:after {
+            content: '';
+            position: absolute;
+            inset: 42px;
+            border: 1px solid #b0a4bb;
+            border-radius: 50%
+        }
+
+        .core {
+            position: absolute;
+            left: calc(50% - 52px);
+            top: 121px;
+            background: var(--green);
+            color: var(--lime);
+            width: 105px;
+            height: 105px;
+            border-radius: 26px;
+            display: grid;
+            place-content: center;
+            box-shadow: 0 18px 36px #30164b33;
+            font-size: 42px
+        }
+
+        .float {
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ded9e4;
+            border-radius: 10px;
+            padding: 13px 17px;
+            box-shadow: 0 9px 25px #29183b10;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px
+        }
+
+        .float b {
+            display: block;
+            font-size: 13px
+        }
+
+        .float i {
+            font-style: normal;
+            color: var(--green);
+            background: #eee8f5;
+            padding: 8px;
+            border-radius: 8px;
+            font-size: 19px
+        }
+
+        .f1 {
+            top: 34px;
+            left: 27px
+        }
+
+        .f2 {
+            top: 98px;
+            right: 15px
+        }
+
+        .f3 {
+            bottom: 61px;
+            left: 14px
+        }
+
+        .f4 {
+            bottom: 22px;
+            right: 24px
+        }
+
+        .strip {
+            border-block: 1px solid var(--line);
+            display: flex;
+            justify-content: space-between;
+            padding: 23px 0;
+            color: #6b6373;
+            font-size: 13px
+        }
+
+        .strip strong {
+            color: var(--ink);
+            font-weight: 600
+        }
+
+        .catalog {
+            padding: 64px 0
+        }
+
+        .sectiontop {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            gap: 20px
+        }
+
+        h2 {
+            font-size: 34px;
+            line-height: 1.2;
+            letter-spacing: -1px;
+            margin: 12px 0
+        }
+
+        .sectiontop p {
+            color: var(--muted);
+            margin: 0
+        }
+
+        .search {
+            position: relative;
+            width: 330px
+        }
+
+        .search input {
+            width: 100%;
+            padding: 13px 16px 13px 41px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: white
+        }
+
+        .search span {
+            position: absolute;
+            left: 15px;
+            top: 10px;
+            font-size: 20px
+        }
+
+        .filters {
+            display: flex;
+            gap: 9px;
+            flex-wrap: wrap;
+            margin: 27px 0
+        }
+
+        .chip {
+            background: transparent;
+            border: 1px solid var(--line);
+            border-radius: 25px;
+            padding: 9px 17px;
+            color: #5d5366;
+            font-size: 13px
+        }
+
+        .chip.active {
+            background: var(--ink);
+            color: #fff;
+            border-color: var(--ink)
+        }
+
+        .results {
+            color: var(--muted);
+            font-size: 12px;
+            margin: 17px 0
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 25px;
+            transition: .2s;
+            display: flex;
+            flex-direction: column
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px #29183b10
+        }
+
+        .cardhead {
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+
+        .icon {
+            height: 48px;
+            width: 48px;
+            display: grid;
+            place-content: center;
+            border-radius: 12px;
+            font-size: 24px
+        }
+
+        .tag {
+            font-size: 10px;
+            color: var(--muted);
+            border: 1px solid var(--line);
+            border-radius: 4px;
+            padding: 3px 7px
+        }
+
+        .card h3 {
+            font-size: 20px;
+            letter-spacing: -.4px;
+            margin: 19px 0 4px
+        }
+
+        .partner {
+            font-size: 12px;
+            color: var(--muted)
+        }
+
+        .card p {
+            font-size: 14px;
+            color: var(--muted);
+            min-height: 67px
+        }
+
+        .benefit {
+            font-size: 12px;
+            color: var(--green);
+            padding: 11px 0 18px
+        }
+
+        .cardfoot {
+            border-top: 1px solid var(--line);
+            padding-top: 17px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: auto;
+            font-size: 12px
+        }
+
+        .detail {
+            border: 0;
+            background: none;
+            color: var(--green);
+            font-weight: bold;
+            padding: 5px 0
+        }
+
+        .how {
+            background: #eeeaf2;
+            padding: 55px 0
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 45px;
+            margin-top: 33px
+        }
+
+        .number {
+            color: var(--green);
+            font-size: 12px;
+            letter-spacing: 2px
+        }
+
+        .steps h3 {
+            margin: 9px 0
+        }
+
+        .steps p {
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .partnerbox {
+            margin: 58px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--ink);
+            color: white;
+            padding: 44px;
+            border-radius: 14px;
+            gap: 30px
+        }
+
+        .partnerbox p {
+            color: #c0b6c9;
+            max-width: 610px
+        }
+
+        .partnerbox .eyebrow {
+            color: var(--lime)
+        }
+
+        .partnerbox .btn {
+            background: var(--lime);
+            color: var(--ink);
+            white-space: nowrap
+        }
+
+        footer {
+            border-top: 1px solid var(--line);
+            padding: 25px 0;
+            font-size: 12px;
+            color: var(--muted)
+        }
+
+        footer .wrap {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px
+        }
+
+        .empty {
+            grid-column: 1/-1;
+            padding: 50px;
+            text-align: center;
+            border: 1px dashed var(--line)
+        }
+
+        dialog {
+            border: 0;
+            border-radius: 16px;
+            padding: 0;
+            max-width: 620px;
+            width: calc(100% - 30px);
+            color: var(--ink);
+            box-shadow: 0 25px 80px #0003
+        }
+
+        dialog::backdrop {
+            background: #1a1025d0;
+            backdrop-filter: blur(4px)
+        }
+
+        .modal {
+            padding: 32px;
+            max-height: 88vh;
+            overflow: auto
+        }
+
+        .close {
+            float: right;
+            border: 1px solid var(--line);
+            background: white;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            font-size: 20px
+        }
+
+        .modal h2 {
+            font-size: 28px
+        }
+
+        .modal p {
+            color: var(--muted)
+        }
+
+        .modal ul {
+            padding-left: 20px;
+            color: var(--muted)
+        }
+
+        label {
+            display: block;
+            font-size: 12px;
+            margin-top: 14px;
+            font-weight: 600
+        }
+
+        label input,
+        label select,
+        label textarea {
+            display: block;
+            width: 100%;
+            padding: 11px;
+            border: 1px solid #d2cdd8;
+            border-radius: 7px;
+            margin-top: 5px;
+            background: white;
+            color: var(--ink)
+        }
+
+        .formrow {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px
+        }
+
+        .notice {
+            font-size: 12px;
+            background: #eee8f5;
+            padding: 12px;
+            border-radius: 7px
+        }
+
+        .modal form .btn {
+            width: 100%;
+            margin-top: 20px
+        }
+
+        .success {
+            padding: 25px 0
+        }
+
+        .success h3 {
+            font-size: 25px
+        }
+
+        .demo {
+            background: #f0edf4;
+            border-bottom: 1px solid var(--line);
+            text-align: center;
+            font-size: 11px;
+            padding: 6px;
+            color: #685f71
+        }
+
+        button:focus-visible,
+        a:focus-visible {
+            outline: 3px solid #7846ab;
+            outline-offset: 4px
+        }
+
+        @media(max-width:900px) {
+            .hero {
+                gap: 25px
+            }
+
+            h1 {
+                font-size: 44px
+            }
+
+            .links {
+                display: none
+            }
+
+            .art {
+                min-height: 330px
+            }
+
+            .orbit {
+                left: 20px
+            }
+
+            .grid {
+                grid-template-columns: repeat(2, 1fr)
+            }
+
+            .sectiontop {
+                align-items: start;
+                flex-direction: column
+            }
+
+            .search {
+                width: 100%
+            }
+
+            .strip {
+                gap: 20px;
+                flex-wrap: wrap
+            }
+        }
+
+        @media(max-width:600px) {
+            .wrap {
+                padding: 0 20px
+            }
+
+            nav {
+                height: 75px
+            }
+
+            .brand {
+                font-size: 25px
+            }
+
+            .brand span {
+                font-size: 10px;
+                margin-left: 8px;
+                padding-left: 8px
+            }
+
+            nav>.btn {
+                padding: 9px 12px;
+                font-size: 12px
+            }
+
+            .hero {
+                grid-template-columns: 1fr;
+                padding-top: 35px;
+                padding-bottom: 35px
+            }
+
+            h1 {
+                font-size: 43px
+            }
+
+            .art {
+                min-height: 320px
+            }
+
+            .hero .actions {
+                flex-wrap: wrap
+            }
+
+            .grid,
+            .steps {
+                grid-template-columns: 1fr
+            }
+
+            .catalog {
+                padding: 40px 0
+            }
+
+            .partnerbox {
+                padding: 27px;
+                align-items: start;
+                flex-direction: column
+            }
+
+            .strip {
+                font-size: 12px
+            }
+
+            .card p {
+                min-height: 0
+            }
+
+            footer .wrap {
+                flex-direction: column
+            }
+
+            .formrow {
+                grid-template-columns: 1fr
+            }
+
+            h2 {
+                font-size: 29px
+            }
+
+            .modal {
+                padding: 24px
+            }
+        }
+
+        /* FilaH / Future ecosystem */
+        :root {
+            --ink: #f2eef6;
+            --muted: #9c94a5;
+            --green: #b26afa;
+            --lime: #b26afa;
+            --bg: #0a080d;
+            --line: #ffffff16
+        }
+
+        body {
+            background: radial-gradient(ellipse at 85% 10%, #24163350, transparent 38%), #0a080d;
+            font-family: Arial, sans-serif
+        }
+
+        header {
+            background: #0a080dbe;
+            backdrop-filter: blur(22px);
+            position: sticky;
+            top: 0;
+            z-index: 20
+        }
+
+        .wrap {
+            max-width: 1320px
+        }
+
+        nav {
+            height: 86px
+        }
+
+        .brand {
+            letter-spacing: -1.7px
+        }
+
+        .brand span {
+            color: #b26afa;
+            border-color: #ffffff25;
+            letter-spacing: 3px
+        }
+
+        .links {
+            color: #bab3c1
+        }
+
+        .links a:hover {
+            color: var(--lime)
+        }
+
+        .btn {
+            background: var(--lime);
+            color: #160c20;
+            border-radius: 6px;
+            padding: 14px 24px;
+            box-shadow: 0 0 25px #b26afa0d;
+            transition: transform .2s, box-shadow .2s
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 30px #b26afa23
+        }
+
+        .btn.light {
+            background: #ffffff05;
+            color: #e2dce8;
+            border: 1px solid #ffffff25
+        }
+
+        .demo {
+            background: #120e17;
+            color: #8a7f95;
+            border-color: #ffffff0d;
+            font-size: 10px;
+            letter-spacing: 1px
+        }
+
+        .hero {
+            grid-template-columns: 1.1fr 1fr;
+            gap: 10px;
+            min-height: 650px;
+            padding-top: 60px;
+            padding-bottom: 65px;
+            position: relative
+        }
+
+        .eyebrow {
+            font-size: 10px;
+            letter-spacing: 2.5px;
+            color: var(--lime)
+        }
+
+        .hero .eyebrow:before {
+            content: '';
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            background: var(--lime);
+            border-radius: 50%;
+            margin-right: 10px;
+            box-shadow: 0 0 12px var(--lime)
+        }
+
+        h1 {
+            font-size: 72px;
+            letter-spacing: -4px;
+            line-height: 1.03;
+            margin: 27px 0
+        }
+
+        h1 em {
+            background: linear-gradient(100deg, #b26afa, #a06ad6);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent
+        }
+
+        .lead {
+            font-size: 16px;
+            line-height: 1.8;
+            max-width: 450px
+        }
+
+        .micro {
+            font-size: 11px;
+            letter-spacing: .4px;
+            color: #8c8198
+        }
+
+        .art {
+            background: transparent;
+            background-image: none;
+            border-radius: 0;
+            height: 490px;
+            min-height: 490px;
+            overflow: visible;
+            padding: 0;
+            isolation: isolate;
+            perspective: 1000px
+        }
+
+        .art:before {
+            content: '';
+            position: absolute;
+            inset: 12%;
+            border-radius: 50%;
+            background: #ab5bfc0b;
+            filter: blur(40px)
+        }
+
+        .art canvas {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%
+        }
+
+        .orbit,
+        .core {
+            display: none
+        }
+
+        .float {
+            background: linear-gradient(130deg, #2f2639bb, #100b15cc);
+            color: #ece8f1;
+            border: 1px solid #b27bea30;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 14px 45px #0005;
+            border-radius: 9px;
+            padding: 13px 17px;
+            z-index: 2;
+            animation: levitate 7s ease-in-out infinite;
+            font-size: 10px
+        }
+
+        .float b {
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: .3px
+        }
+
+        .float i {
+            background: #b26afa12;
+            color: var(--lime);
+            font-size: 19px;
+            border: 1px solid #b26afa25
+        }
+
+        .f1 {
+            top: 48px;
+            left: 12px;
+            transform: rotate(-6deg)
+        }
+
+        .f2 {
+            top: 130px;
+            right: -5px;
+            animation-delay: -2s
+        }
+
+        .f3 {
+            bottom: 104px;
+            left: 0;
+            animation-delay: -4s
+        }
+
+        .f4 {
+            bottom: 33px;
+            right: 25px;
+            animation-delay: -1s
+        }
+
+        .scene-caption {
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+            font-size: 9px;
+            letter-spacing: 2px;
+            color: #90829d
+        }
+
+        .scene-caption span {
+            color: var(--lime)
+        }
+
+        @keyframes levitate {
+            50% {
+                translate: 0 -12px
+            }
+        }
+
+        .strip {
+            padding: 25px 0;
+            color: #9a8ea6;
+            font-size: 12px
+        }
+
+        .strip strong {
+            font-size: 13px;
+            color: #ddd7e3
+        }
+
+        .catalog {
+            padding: 85px 0
+        }
+
+        .sectiontop p {
+            font-size: 14px
+        }
+
+        h2 {
+            font-size: 39px;
+            letter-spacing: -1.6px
+        }
+
+        .search input {
+            background: #16111b;
+            border-color: #ffffff16;
+            color: #eae4f0;
+            font-size: 12px;
+            padding-block: 15px
+        }
+
+        .search input::placeholder {
+            color: #8b8195
+        }
+
+        .search span {
+            color: #b0a8b8
+        }
+
+        .filters {
+            margin-top: 30px;
+            gap: 8px
+        }
+
+        .chip {
+            border-radius: 5px;
+            font-size: 12px;
+            padding: 10px 18px;
+            color: #b0a7b9;
+            background: #ffffff02
+        }
+
+        .chip:hover {
+            border-color: #b26afa66
+        }
+
+        .chip.active {
+            background: #b26afa17;
+            border-color: #b26afa70;
+            color: #c38cfb
+        }
+
+        .results {
+            font-size: 10px;
+            letter-spacing: .8px;
+            margin: 23px 0
+        }
+
+        .grid {
+            gap: 17px
+        }
+
+        .card {
+            background: linear-gradient(145deg, #1a1520, #110d15);
+            border-color: #ffffff12;
+            border-radius: 11px;
+            padding: 27px;
+            position: relative;
+            overflow: hidden;
+            transform-style: preserve-3d;
+            transition: transform .25s, border-color .25s, box-shadow .25s
+        }
+
+        .card:before {
+            content: '';
+            position: absolute;
+            top: -95px;
+            right: -60px;
+            width: 190px;
+            height: 190px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #b26afa0b, transparent 70%);
+            pointer-events: none
+        }
+
+        .card:hover {
+            border-color: #b26afa55;
+            box-shadow: 0 18px 50px #0005
+        }
+
+        .icon {
+            background: linear-gradient(135deg, #b26afa20, #b26afa04) !important;
+            color: #c28cf8;
+            border: 1px solid #b26afa24;
+            box-shadow: inset 0 1px 0 #dab5ff22;
+            border-radius: 10px;
+            transform: perspective(300px) rotateY(-14deg) rotateX(8deg);
+            height: 53px;
+            width: 53px;
+            font-size: 25px
+        }
+
+        .tag {
+            border-color: #ffffff13;
+            color: #9c91a7;
+            font-size: 9px;
+            padding: 4px 8px
+        }
+
+        .card h3 {
+            margin-top: 24px;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: -.5px
+        }
+
+        .partner {
+            font-size: 10px;
+            color: #83788e
+        }
+
+        .card p {
+            font-size: 13px;
+            line-height: 1.8;
+            min-height: 70px;
+            color: #a39aac
+        }
+
+        .benefit {
+            font-size: 11px;
+            color: #ba9fd6;
+            padding-bottom: 23px
+        }
+
+        .cardfoot {
+            font-size: 11px;
+            border-color: #ffffff10
+        }
+
+        .detail {
+            color: #c18cf7;
+            font-size: 11px
+        }
+
+        .how {
+            background: radial-gradient(ellipse at 50% 0, #2a1c3855, transparent 70%), #100c14;
+            border-block: 1px solid #ffffff0e;
+            padding: 65px 0
+        }
+
+        .steps {
+            gap: 60px
+        }
+
+        .number {
+            font-family: monospace;
+            font-size: 11px;
+            color: #a15ce7
+        }
+
+        .steps h3 {
+            font-weight: 500;
+            font-size: 19px
+        }
+
+        .steps p {
+            font-size: 13px;
+            line-height: 1.9;
+            max-width: 310px
+        }
+
+        .partnerbox {
+            background: linear-gradient(110deg, #201729, #140e1b);
+            border: 1px solid #b26afa30;
+            border-radius: 13px;
+            margin: 72px 0;
+            padding: 50px;
+            position: relative;
+            overflow: hidden
+        }
+
+        .partnerbox:after {
+            content: '✳';
+            position: absolute;
+            right: 230px;
+            top: -100px;
+            font-size: 350px;
+            color: #b26afa05;
+            pointer-events: none
+        }
+
+        .partnerbox p {
+            font-size: 14px;
+            max-width: 560px
+        }
+
+        .partnerbox h2 {
+            font-size: 36px
+        }
+
+        .partnerbox .btn {
+            z-index: 1
+        }
+
+        footer {
+            color: #7f748b;
+            padding: 32px 0
+        }
+
+        footer .brand {
+            color: #e3dceb
+        }
+
+        .modal {
+            background: linear-gradient(145deg, #221b2a, #100c15);
+            color: var(--ink)
+        }
+
+        dialog {
+            background: #15101a;
+            border: 1px solid #b26afa35
+        }
+
+        dialog::backdrop {
+            background: #040207ce
+        }
+
+        .close {
+            background: #ffffff08;
+            color: white;
+            border-color: #ffffff25
+        }
+
+        .modal label input,
+        .modal label textarea {
+            background: #0c0910;
+            border-color: #ffffff25;
+            color: white
+        }
+
+        .notice {
+            background: #b26afa0a;
+            border: 1px solid #b26afa20;
+            color: #aa9eb5 !important
+        }
+
+        .modal h3 {
+            font-weight: 500
+        }
+
+        .modal ul {
+            font-size: 14px;
+            line-height: 2
+        }
+
+        .empty {
+            background: #15101b;
+            border-color: #b26afa25
+        }
+
+        .reveal {
+            animation: arrive .7s ease both
+        }
+
+        @keyframes arrive {
+            from {
+                opacity: 0;
+                translate: 0 25px
+            }
+
+            to {
+                opacity: 1;
+                translate: 0 0
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+
+            *,
+            *:before,
+            *:after {
+                animation: none !important;
+                transition: none !important
+            }
+
+            html {
+                scroll-behavior: auto
+            }
+        }
+
+        @media(max-width:1000px) {
+            h1 {
+                font-size: 58px
+            }
+
+            .hero {
+                min-height: 590px
+            }
+
+            .art {
+                min-height: 420px;
+                height: 420px
+            }
+
+            .f2 {
+                right: 0
+            }
+
+            .f1 {
+                left: 0
+            }
+
+            .float {
+                padding: 10px
+            }
+
+            .scene-caption {
+                font-size: 8px
+            }
+
+            .grid {
+                gap: 14px
+            }
+        }
+
+        @media(max-width:600px) {
+            h1 {
+                font-size: 49px;
+                letter-spacing: -2.7px
+            }
+
+            .hero {
+                grid-template-columns: 1fr;
+                padding-top: 35px;
+                gap: 0
+            }
+
+            .art {
+                height: 360px;
+                min-height: 360px;
+                margin-top: 15px
+            }
+
+            .f1 {
+                top: 20px
+            }
+
+            .f2 {
+                top: 100px
+            }
+
+            .f3 {
+                bottom: 80px
+            }
+
+            .f4 {
+                bottom: 28px
+            }
+
+            .float {
+                font-size: 9px
+            }
+
+            .float b {
+                font-size: 11px
+            }
+
+            h2 {
+                font-size: 30px
+            }
+
+            .catalog {
+                padding: 48px 0
+            }
+
+            .strip {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 17px
+            }
+
+            .strip strong {
+                grid-column: 1/-1
+            }
+
+            .strip span {
+                font-size: 10px
+            }
+
+            .card p {
+                min-height: 0
+            }
+
+            .partnerbox {
+                padding: 28px;
+                margin: 45px 0
+            }
+
+            .partnerbox h2 {
+                font-size: 29px
+            }
+
+            .steps {
+                gap: 22px
+            }
+
+            .scene-caption {
+                bottom: -9px
+            }
+
+            .hero .actions {
+                gap: 9px
+            }
+
+            .hero .actions .btn {
+                font-size: 12px;
+                padding: 13px 17px
+            }
+        }
+
+        .prototype-link {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 15px;
+            margin-top: 17px;
+            border: 1px solid #b26afa50;
+            background: #b26afa10;
+            color: #ca9bfa;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600
+        }
+
+        .prototype-link:hover {
+            background: #b26afa24
+        }
+
+        .brand .brand-ia {
+            font: inherit;
+            letter-spacing: inherit;
+            border: 0;
+            margin: 0;
+            padding: 0;
+            color: #c496ff
+        }
+
+        .brand>span:last-child {
+            font-size: 10px;
+            letter-spacing: 1.7px
+        }
+
+        nav .brand {
+            white-space: nowrap
+        }
+
+        @media(max-width:600px) {
+            nav .brand>span:last-child {
+                display: block;
+                border: 0;
+                margin: 4px 0 0;
+                padding: 0;
+                font-size: 8px;
+                letter-spacing: 1.4px
+            }
+        }
+
+        .btn {
+            color: #180b29
+        }
+
+        .btn.light {
+            color: #f3edfa
+        }
+
+        .partnerbox .btn {
+            color: #180b29
+        }
+
+        .grid {
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            gap: 30px 25px
+        }
+
+        .card.app-tile {
+            padding: 0;
+            background: none;
+            border: 0;
+            border-radius: 0;
+            overflow: visible;
+            box-shadow: none;
+            transform: none !important
+        }
+
+        .card.app-tile:before {
+            display: none
+        }
+
+        .app-entry {
+            display: block;
+            text-align: left;
+            background: none;
+            border: 0;
+            padding: 0;
+            color: inherit;
+            width: 100%;
+            font: inherit
+        }
+
+        .app-logo {
+            width: 82px;
+            height: 82px;
+            border-radius: 21px;
+            display: grid;
+            place-content: center;
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: -2px;
+            background: linear-gradient(135deg, #5935a0, #251936);
+            color: white;
+            border: 1px solid #c799ff40;
+            box-shadow: inset 0 1px 0 #ffffff25, 0 8px 24px #0003;
+            transition: transform .2s, box-shadow .2s
+        }
+
+        .app-logo-0 {
+            background: linear-gradient(135deg, #ac76ff, #4c2a88)
+        }
+
+        .app-logo-1 {
+            background: linear-gradient(135deg, #315e4e, #172d26);
+            letter-spacing: -3px;
+            font-size: 25px
+        }
+
+        .app-logo-2 {
+            background: linear-gradient(135deg, #34324c, #161421);
+            color: #c99aff;
+            font-size: 40px
+        }
+
+        .app-entry:hover .app-logo {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 28px #8e4bd230
+        }
+
+        .app-tile h3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin: 15px 0 5px;
+            line-height: 1.45;
+            letter-spacing: -.2px
+        }
+
+        .app-tile p {
+            font-size: 12px;
+            line-height: 1.7;
+            min-height: 0;
+            margin: 0;
+            color: #a99fb6
+        }
+
+        .app-tile .app-entry:focus-visible {
+            outline-offset: 8px;
+            border-radius: 8px
+        }
+
+        .catalog {
+            padding-top: 65px
+        }
+
+        .results {
+            margin: 28px 0 24px;
+            font-size: 13px;
+            color: #ded4ec;
+            letter-spacing: 0
+        }
+
+        .filters {
+            gap: 8px
+        }
+
+        @media(max-width:1000px) {
+            .grid {
+                grid-template-columns: repeat(4, minmax(0, 1fr))
+            }
+        }
+
+        @media(max-width:750px) {
+            .grid {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+                gap: 28px 18px
+            }
+        }
+
+        @media(max-width:480px) {
+            .grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 28px 20px
+            }
+
+            .app-logo {
+                width: 74px;
+                height: 74px
+            }
+
+            .app-tile h3 {
+                font-size: 14px
+            }
+
+            .app-tile p {
+                font-size: 11px
+            }
+        }
+
+        .app-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px
+        }
+
+        .app-logo:has(img) {
+            display: block;
+            overflow: hidden
+        }
+
+        nav:has(a[href="/admin"]) .links {
+            gap: 15px
+        }
+
+        @media(max-width:600px) {
+            nav:has(a[href="/admin"]) {
+                flex-wrap: wrap;
+                height: auto;
+                padding-top: 15px;
+                padding-bottom: 15px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo">Portfólio em demonstração · Protótipos FilaH e conceitos de parceiros</div>
+    <header>
+        <nav class="wrap"><a class="brand" href="#">Plur<span class="brand-ia">IA</span><span>MARKETPLACE DE
+                    IA</span></a>
+            <div class="links"><a href="#solucoes">Explorar soluções</a><a href="#como">Como funciona</a><a
+                    href="#parceiros">Para parceiros</a></div><button class="btn light"
+                onclick="openForm('consultoria')">Vamos conversar ↗</button>
+        </nav>
+    </header>
+    <main>
+        <section class="wrap hero">
+            <div>
+                <div class="eyebrow">PLURIA / INTELIGÊNCIA SEM FRONTEIRAS</div>
+                <h1>O futuro não<br>espera.<br><em>Conecte-se a ele.</em></h1>
+                <p class="lead">Descubra automações que resolvem desafios reais. Conectamos sua empresa a soluções de IA
+                    e automações de um ecossistema de especialistas.</p>
+                <div class="actions"><a href="#solucoes" class="btn">Explorar soluções <span>↗</span></a><button
+                        class="btn light" onclick="openForm('consultoria')">Me ajude a escolher</button></div>
+                <div class="micro">Para empresas de todos os tamanhos. Com pessoas por perto.</div>
+            </div>
+            <div class="art" aria-label="Ecossistema de soluções conectadas à PlurIA"><canvas id="nexus"
+                    aria-label="Núcleo tridimensional animado do ecossistema PlurIA"></canvas>
+                <div class="scene-caption"><span>●</span> NEXUS / ECOSSISTEMA CONECTADO</div>
+                <div class="float f1"><i>☏</i>
+                    <div><b>Atendimento</b>Conversas que avançam</div>
+                </div>
+                <div class="float f2"><i>↗</i>
+                    <div><b>Vendas</b>Mais oportunidades</div>
+                </div>
+                <div class="float f3"><i>▤</i>
+                    <div><b>Documentos</b>Menos tarefas manuais</div>
+                </div>
+                <div class="float f4"><i>⌘</i>
+                    <div><b>Operações</b>Processos conectados</div>
+                </div>
+            </div>
+        </section>
+        <div class="wrap">
+            <div class="strip"><strong>Múltiplas soluções. Uma conexão: PlurIA.</strong><span>↗ Soluções por
+                    necessidade</span><span>◎ Orientação na escolha</span><span>⇄ Conexão com especialistas</span></div>
+        </div>
+        <section class="wrap catalog" id="solucoes">
+            <div class="sectiontop">
+                <div>
+                    <div class="eyebrow">Inteligência aplicada</div>
+                    <h2>Uma nova dimensão de possibilidades.</h2>
+                    <p>Escolha seu desafio. Descubra a inteligência que move o próximo passo.</p>
+                </div>
+                <div class="search"><span>⌕</span><input id="search" aria-label="Buscar soluções"
+                        placeholder="Busque uma solução ou necessidade"></div>
+            </div>
+            <div class="filters" id="filters"></div>
+            <div class="results" id="count"></div>
+            <div class="grid" id="grid"></div>
+        </section>
+        <section class="how" id="como">
+            <div class="wrap">
+                <div class="eyebrow">Da descoberta à conexão</div>
+                <h2>Um caminho simples para começar.</h2>
+                <div class="steps">
+                    <article><span class="number">01 / DESCUBRA</span>
+                        <h3>Encontre sua solução</h3>
+                        <p>Explore por área e conheça aplicações de IA para os desafios da sua empresa.</p>
+                    </article>
+                    <article><span class="number">02 / CONVERSE</span>
+                        <h3>Conte o que precisa</h3>
+                        <p>Solicite uma demonstração ou peça ajuda à PlurIA para avaliar as opções.</p>
+                    </article>
+                    <article><span class="number">03 / CONECTE</span>
+                        <h3>Avance com o parceiro</h3>
+                        <p>Conheça o fornecedor responsável e alinhe escopo, implantação e condições comerciais.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="wrap" id="parceiros">
+            <div class="partnerbox">
+                <div>
+                    <div class="eyebrow">Cresça com o ecossistema</div>
+                    <h2>Você tem a solução.<br>Vamos ampliar o alcance.</h2>
+                    <p>Apresente seu produto para integrar o portfólio PlurIA. Conecte sua tecnologia a empresas que
+                        precisam do que você faz.</p>
+                </div><button class="btn" onclick="openForm('parceiro')">Quero ser parceiro ↗</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap"><a class="brand" href="#">Plur<span class="brand-ia">IA</span><span>MARKETPLACE DE
+                    IA</span></a><span>PlurIA · Marketplace de IA. Uma iniciativa FilaH.</span><span>Contato por e-mail
+                · Envio pelo seu aplicativo.</span></div>
+        <div class="wrap" style="padding-top:16px"><a href="/admin" style="font-size:11px">Acesso do administrador</a>
+        </div>
+    </footer>
+    <dialog id="dialog" aria-label="Detalhes e contato">
+        <div class="modal" id="modal"></div>
+    </dialog>
+    <script>
+        let products = []; let active = ''; let cats = []; function render() { cats = [...new Set(products.map(p => p.cat))]; document.getElementById('filters').innerHTML = cats.map(c => `<button class="chip ${active === c ? 'active' : ''}" aria-pressed="${active === c}" onclick="filter(decodeURIComponent('${encodeURIComponent(c).replace(/'/g, '%27')}'))">${escapeText(c)}</button>`).join(''); let q = document.getElementById('search').value.toLocaleLowerCase('pt-BR'); let list = products.filter(p => (!active || p.cat === active) && [p.name, p.desc, p.cat, p.aud].join(' ').toLocaleLowerCase('pt-BR').includes(q)); document.getElementById('count').textContent = active || 'Explore as soluções'; document.getElementById('grid').innerHTML = list.length ? list.map(p => { let i = products.indexOf(p); return `<article class="card app-tile">${p.url ? `<a class="app-entry" href="${escapeText(p.url)}" target="_blank" rel="noopener noreferrer" aria-label="Abrir demonstração de ${escapeText(p.name)}">` : `<button class="app-entry" onclick="openForm('solucao',${i})" aria-label="Conhecer ${escapeText(p.name)}">`}<div class="app-logo app-logo-${i}" aria-hidden="true">${p.logo ? `<img src="${escapeText(p.logo)}" alt="" loading="lazy">` : escapeText(p.icon || p.name.slice(0, 2))}</div><h3>${escapeText(p.name)}</h3>${p.url ? '</a>' : '</button>'}<p>${escapeText(p.desc)}</p></article>` }).join('') : '<div class="empty">Nenhuma solução encontrada. Tente outra busca ou segmento.</div>' } function escapeText(v) { return String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])) } function filter(c) { active = active === c ? '' : c; render() } document.getElementById('search').addEventListener('input', render); const dlg = document.getElementById('dialog'); function show(html) { document.getElementById('modal').innerHTML = '<button class="close" aria-label="Fechar" onclick="dlg.close()">×</button>' + html; if (!dlg.open) dlg.showModal() } function details(i) { let p = products[i]; show(`<div class="eyebrow">${p.cat} / ${p.own ? 'SOLUÇÃO FILAH' : 'demonstração'}</div><h2>${escapeText(p.name)}</h2><p>${escapeText(p.desc)}</p><h3>Possibilidades da solução</h3><ul>${p.features.map(f => `<li>${f}</li>`).join('')}</ul><h3>Para quem faz sentido</h3><p>${p.aud}.</p><div class="notice">${p.own ? 'Protótipo para demonstração. Abre em uma nova aba e pode solicitar login. Recursos e condições da versão comercial devem ser confirmados com a FilaH.' : 'Exemplo de portfólio. Fornecedor, recursos, integrações e condições serão definidos após validação dos parceiros.'}</div><br>${p.own ? `<a class="btn" style="margin-bottom:12px" href="${escapeText(p.url)}" target="_blank" rel="noopener noreferrer">Testar protótipo ↗</a><br>` : ''}<button class="btn ${p.own ? 'light' : ''}" onclick="openForm('solucao',${i})">Solicitar demonstração ↗</button>`) } function openForm(type, i) { let partner = type === 'parceiro', p = products[i]; show(`<div class="eyebrow">${partner ? 'Ecossistema de parceiros' : 'Vamos conversar'}</div><h2>${partner ? 'Sua solução na PlurIA' : p ? 'Conheça a solução' : 'Encontre o melhor caminho'}</h2><p>${partner ? 'Conte sobre sua empresa e seu produto para uma futura avaliação de parceria.' : p ? p.name : 'Conte seu desafio. A PlurIA ajuda a conectar sua empresa à solução adequada.'}</p><form onsubmit="prepareEmail(event,${partner})"><input type="hidden" name="interesse" value="${p ? escapeText(p.name) : 'Orientação sobre soluções'}"><div class="formrow"><label>Seu nome<input required name="nome" autocomplete="name"></label><label>Empresa<input required name="empresa" autocomplete="organization"></label></div><label>E-mail corporativo<input required name="email" type="email" autocomplete="email"></label>${partner ? '<label>Nome da solução<input required name="solucao"></label><label>Site do produto<input type="url" name="site" placeholder="https://"></label>' : ''}<label>${partner ? 'O que seu produto resolve?' : 'Qual desafio você quer resolver?'}<textarea name="desafio" rows="3" required></textarea></label><p class="notice">Seu aplicativo de e-mail será aberto com a mensagem preenchida. Revise e clique em enviar para concluir o contato.</p><button class="btn" type="submit">${partner ? 'Preparar e-mail de parceria' : 'Preparar e-mail de interesse'} ↗</button></form>`) } function prepareEmail(e, partner) { e.preventDefault(); const f = new FormData(e.target); const subject = partner ? 'PlurIA | Proposta de parceria' : 'PlurIA | Interesse em ' + f.get('interesse'); const body = ['Olá, equipe PlurIA!', '', partner ? 'Gostaria de apresentar minha solução para uma parceria.' : 'Gostaria de conhecer melhor uma solução.', '', 'Nome: ' + f.get('nome'), 'Empresa: ' + f.get('empresa'), 'E-mail: ' + f.get('email'), partner ? 'Solução: ' + f.get('solucao') : 'Interesse: ' + f.get('interesse'), partner ? 'Site: ' + f.get('site') : '', '', f.get('desafio')].join('\n'); const url = 'mailto:felipe@filah.com.br?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body); const a = document.createElement('a'); a.href = url; a.click(); const status = document.createElement('p'); status.className = 'notice'; status.textContent = 'Mensagem preparada. Conclua o envio no seu aplicativo de e-mail. Se ele não abriu, confira se você tem um aplicativo de e-mail configurado.'; e.target.append(status); } dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close() }); async function loadCatalog() { try { const r = await fetch('/api/catalog'); if (!r.ok) throw Error(); products = await r.json(); render() } catch { document.getElementById('grid').textContent = 'Não foi possível carregar as soluções. Atualize a página para tentar novamente.' } } loadCatalog();
+    </script>
+    <script src="experience.js"></script>
+</body>
+
+</html>
